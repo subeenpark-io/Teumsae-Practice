@@ -1,0 +1,882 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A1EE4A443A14E7EC80898AF /* Pods_Teumsae_TeumsaeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7C528C96D158FDB6017D714 /* Pods_Teumsae_TeumsaeUITests.framework */; };
+		25EA2273CEB3F6A025598217 /* Pods_TeumsaeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD0FDA710D9D8A662C951E36 /* Pods_TeumsaeTests.framework */; };
+		CC4C6E4C272D4E5D00EFFF11 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4C6E4B272D4E5D00EFFF11 /* AppDelegate.swift */; };
+		CC4C6E4E272D4E5D00EFFF11 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4C6E4D272D4E5D00EFFF11 /* SceneDelegate.swift */; };
+		CC4C6E50272D4E5D00EFFF11 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4C6E4F272D4E5D00EFFF11 /* ViewController.swift */; };
+		CC4C6E56272D4E5D00EFFF11 /* Teumsae.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CC4C6E54272D4E5D00EFFF11 /* Teumsae.xcdatamodeld */; };
+		CC4C6E58272D4E6200EFFF11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC4C6E57272D4E6200EFFF11 /* Assets.xcassets */; };
+		CC4C6E5B272D4E6200EFFF11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC4C6E59272D4E6200EFFF11 /* LaunchScreen.storyboard */; };
+		CC4C6E66272D4E6200EFFF11 /* TeumsaeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4C6E65272D4E6200EFFF11 /* TeumsaeTests.swift */; };
+		CC4C6E70272D4E6200EFFF11 /* TeumsaeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4C6E6F272D4E6200EFFF11 /* TeumsaeUITests.swift */; };
+		CC4C6E72272D4E6200EFFF11 /* TeumsaeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4C6E71272D4E6200EFFF11 /* TeumsaeUITestsLaunchTests.swift */; };
+		CC4C6E85272D50DF00EFFF11 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC4C6E84272D50DF00EFFF11 /* Colors.xcassets */; };
+		CC4C6E88272D50F700EFFF11 /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4C6E87272D50F700EFFF11 /* Const.swift */; };
+		CC4C6E8A272D510E00EFFF11 /* Storyboards.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4C6E89272D510E00EFFF11 /* Storyboards.swift */; };
+		CC4C6E8C272D51C800EFFF11 /* RecordingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4C6E8B272D51C800EFFF11 /* RecordingViewController.swift */; };
+		CC4C6E8E272D51D100EFFF11 /* Recording.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC4C6E8D272D51D100EFFF11 /* Recording.storyboard */; };
+		CC4C6E90272D563900EFFF11 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4C6E8F272D563900EFFF11 /* Date+Extension.swift */; };
+		CC4C6E93272D576300EFFF11 /* Recording.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4C6E92272D576300EFFF11 /* Recording.swift */; };
+		F638D1D7BC5C6662E18B04BE /* Pods_Teumsae.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F7D1601E3C0B16844785ABF /* Pods_Teumsae.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CC4C6E62272D4E6200EFFF11 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC4C6E40272D4E5D00EFFF11 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC4C6E47272D4E5D00EFFF11;
+			remoteInfo = Teumsae;
+		};
+		CC4C6E6C272D4E6200EFFF11 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC4C6E40272D4E5D00EFFF11 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC4C6E47272D4E5D00EFFF11;
+			remoteInfo = Teumsae;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0710C560259441395AB1FEAE /* Pods-Teumsae-TeumsaeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Teumsae-TeumsaeUITests.release.xcconfig"; path = "Target Support Files/Pods-Teumsae-TeumsaeUITests/Pods-Teumsae-TeumsaeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2D6003265C0DAAF32B5F2DD4 /* Pods-Teumsae.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Teumsae.release.xcconfig"; path = "Target Support Files/Pods-Teumsae/Pods-Teumsae.release.xcconfig"; sourceTree = "<group>"; };
+		5F7D1601E3C0B16844785ABF /* Pods_Teumsae.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Teumsae.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FDAAAA4F4B8EA1ABFA3E1E1 /* Pods-TeumsaeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeumsaeTests.debug.xcconfig"; path = "Target Support Files/Pods-TeumsaeTests/Pods-TeumsaeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8FE5569D7E13331C63B131FF /* Pods-Teumsae.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Teumsae.debug.xcconfig"; path = "Target Support Files/Pods-Teumsae/Pods-Teumsae.debug.xcconfig"; sourceTree = "<group>"; };
+		9CB37A373FB4137F9C2D9D48 /* Pods-TeumsaeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeumsaeTests.release.xcconfig"; path = "Target Support Files/Pods-TeumsaeTests/Pods-TeumsaeTests.release.xcconfig"; sourceTree = "<group>"; };
+		AD0FDA710D9D8A662C951E36 /* Pods_TeumsaeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TeumsaeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7C528C96D158FDB6017D714 /* Pods_Teumsae_TeumsaeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Teumsae_TeumsaeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC4C6E48272D4E5D00EFFF11 /* Teumsae.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Teumsae.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC4C6E4B272D4E5D00EFFF11 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CC4C6E4D272D4E5D00EFFF11 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CC4C6E4F272D4E5D00EFFF11 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CC4C6E55272D4E5D00EFFF11 /* Teumsae.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Teumsae.xcdatamodel; sourceTree = "<group>"; };
+		CC4C6E57272D4E6200EFFF11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC4C6E5A272D4E6200EFFF11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CC4C6E5C272D4E6200EFFF11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC4C6E61272D4E6200EFFF11 /* TeumsaeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TeumsaeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC4C6E65272D4E6200EFFF11 /* TeumsaeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeumsaeTests.swift; sourceTree = "<group>"; };
+		CC4C6E6B272D4E6200EFFF11 /* TeumsaeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TeumsaeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC4C6E6F272D4E6200EFFF11 /* TeumsaeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeumsaeUITests.swift; sourceTree = "<group>"; };
+		CC4C6E71272D4E6200EFFF11 /* TeumsaeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeumsaeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CC4C6E84272D50DF00EFFF11 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		CC4C6E87272D50F700EFFF11 /* Const.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
+		CC4C6E89272D510E00EFFF11 /* Storyboards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboards.swift; sourceTree = "<group>"; };
+		CC4C6E8B272D51C800EFFF11 /* RecordingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingViewController.swift; sourceTree = "<group>"; };
+		CC4C6E8D272D51D100EFFF11 /* Recording.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Recording.storyboard; sourceTree = "<group>"; };
+		CC4C6E8F272D563900EFFF11 /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
+		CC4C6E92272D576300EFFF11 /* Recording.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recording.swift; sourceTree = "<group>"; };
+		CE3B9DCD26D49DC98AF1FB01 /* Pods-Teumsae-TeumsaeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Teumsae-TeumsaeUITests.debug.xcconfig"; path = "Target Support Files/Pods-Teumsae-TeumsaeUITests/Pods-Teumsae-TeumsaeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC4C6E45272D4E5D00EFFF11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F638D1D7BC5C6662E18B04BE /* Pods_Teumsae.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC4C6E5E272D4E6200EFFF11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25EA2273CEB3F6A025598217 /* Pods_TeumsaeTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC4C6E68272D4E6200EFFF11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A1EE4A443A14E7EC80898AF /* Pods_Teumsae_TeumsaeUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		66B895E75EFCCA6BFC207882 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8FE5569D7E13331C63B131FF /* Pods-Teumsae.debug.xcconfig */,
+				2D6003265C0DAAF32B5F2DD4 /* Pods-Teumsae.release.xcconfig */,
+				CE3B9DCD26D49DC98AF1FB01 /* Pods-Teumsae-TeumsaeUITests.debug.xcconfig */,
+				0710C560259441395AB1FEAE /* Pods-Teumsae-TeumsaeUITests.release.xcconfig */,
+				5FDAAAA4F4B8EA1ABFA3E1E1 /* Pods-TeumsaeTests.debug.xcconfig */,
+				9CB37A373FB4137F9C2D9D48 /* Pods-TeumsaeTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CC4C6E3F272D4E5D00EFFF11 = {
+			isa = PBXGroup;
+			children = (
+				CC4C6E4A272D4E5D00EFFF11 /* Teumsae */,
+				CC4C6E64272D4E6200EFFF11 /* TeumsaeTests */,
+				CC4C6E6E272D4E6200EFFF11 /* TeumsaeUITests */,
+				CC4C6E49272D4E5D00EFFF11 /* Products */,
+				66B895E75EFCCA6BFC207882 /* Pods */,
+				E5281FBB5067CD695AA30F50 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CC4C6E49272D4E5D00EFFF11 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC4C6E48272D4E5D00EFFF11 /* Teumsae.app */,
+				CC4C6E61272D4E6200EFFF11 /* TeumsaeTests.xctest */,
+				CC4C6E6B272D4E6200EFFF11 /* TeumsaeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC4C6E4A272D4E5D00EFFF11 /* Teumsae */ = {
+			isa = PBXGroup;
+			children = (
+				CC4C6E7F272D4F0100EFFF11 /* Sources */,
+				CC4C6E7E272D4EFB00EFFF11 /* Resources */,
+				CC4C6E4B272D4E5D00EFFF11 /* AppDelegate.swift */,
+				CC4C6E4D272D4E5D00EFFF11 /* SceneDelegate.swift */,
+				CC4C6E4F272D4E5D00EFFF11 /* ViewController.swift */,
+				CC4C6E59272D4E6200EFFF11 /* LaunchScreen.storyboard */,
+				CC4C6E5C272D4E6200EFFF11 /* Info.plist */,
+				CC4C6E54272D4E5D00EFFF11 /* Teumsae.xcdatamodeld */,
+			);
+			path = Teumsae;
+			sourceTree = "<group>";
+		};
+		CC4C6E64272D4E6200EFFF11 /* TeumsaeTests */ = {
+			isa = PBXGroup;
+			children = (
+				CC4C6E65272D4E6200EFFF11 /* TeumsaeTests.swift */,
+			);
+			path = TeumsaeTests;
+			sourceTree = "<group>";
+		};
+		CC4C6E6E272D4E6200EFFF11 /* TeumsaeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CC4C6E6F272D4E6200EFFF11 /* TeumsaeUITests.swift */,
+				CC4C6E71272D4E6200EFFF11 /* TeumsaeUITestsLaunchTests.swift */,
+			);
+			path = TeumsaeUITests;
+			sourceTree = "<group>";
+		};
+		CC4C6E7E272D4EFB00EFFF11 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CC4C6E57272D4E6200EFFF11 /* Assets.xcassets */,
+				CC4C6E84272D50DF00EFFF11 /* Colors.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CC4C6E7F272D4F0100EFFF11 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				CC4C6E91272D575500EFFF11 /* Model */,
+				CC4C6E86272D50EE00EFFF11 /* Const */,
+				CC4C6E83272D4F2400EFFF11 /* Extensions */,
+				CC4C6E82272D4F1900EFFF11 /* Cells */,
+				CC4C6E81272D4F1000EFFF11 /* Storyboards */,
+				CC4C6E80272D4F0500EFFF11 /* ViewControllers */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		CC4C6E80272D4F0500EFFF11 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				CC4C6E8B272D51C800EFFF11 /* RecordingViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		CC4C6E81272D4F1000EFFF11 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				CC4C6E8D272D51D100EFFF11 /* Recording.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		CC4C6E82272D4F1900EFFF11 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		CC4C6E83272D4F2400EFFF11 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CC4C6E8F272D563900EFFF11 /* Date+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		CC4C6E86272D50EE00EFFF11 /* Const */ = {
+			isa = PBXGroup;
+			children = (
+				CC4C6E87272D50F700EFFF11 /* Const.swift */,
+				CC4C6E89272D510E00EFFF11 /* Storyboards.swift */,
+			);
+			path = Const;
+			sourceTree = "<group>";
+		};
+		CC4C6E91272D575500EFFF11 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CC4C6E92272D576300EFFF11 /* Recording.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E5281FBB5067CD695AA30F50 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5F7D1601E3C0B16844785ABF /* Pods_Teumsae.framework */,
+				B7C528C96D158FDB6017D714 /* Pods_Teumsae_TeumsaeUITests.framework */,
+				AD0FDA710D9D8A662C951E36 /* Pods_TeumsaeTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC4C6E47272D4E5D00EFFF11 /* Teumsae */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC4C6E75272D4E6200EFFF11 /* Build configuration list for PBXNativeTarget "Teumsae" */;
+			buildPhases = (
+				348B61D367A3EDC1228E8709 /* [CP] Check Pods Manifest.lock */,
+				CC4C6E44272D4E5D00EFFF11 /* Sources */,
+				CC4C6E45272D4E5D00EFFF11 /* Frameworks */,
+				CC4C6E46272D4E5D00EFFF11 /* Resources */,
+				09493529DFF55F0A8BA44F8C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Teumsae;
+			productName = Teumsae;
+			productReference = CC4C6E48272D4E5D00EFFF11 /* Teumsae.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CC4C6E60272D4E6200EFFF11 /* TeumsaeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC4C6E78272D4E6200EFFF11 /* Build configuration list for PBXNativeTarget "TeumsaeTests" */;
+			buildPhases = (
+				E1ED5CCA37CE759A8DAFCE70 /* [CP] Check Pods Manifest.lock */,
+				CC4C6E5D272D4E6200EFFF11 /* Sources */,
+				CC4C6E5E272D4E6200EFFF11 /* Frameworks */,
+				CC4C6E5F272D4E6200EFFF11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC4C6E63272D4E6200EFFF11 /* PBXTargetDependency */,
+			);
+			name = TeumsaeTests;
+			productName = TeumsaeTests;
+			productReference = CC4C6E61272D4E6200EFFF11 /* TeumsaeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CC4C6E6A272D4E6200EFFF11 /* TeumsaeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC4C6E7B272D4E6200EFFF11 /* Build configuration list for PBXNativeTarget "TeumsaeUITests" */;
+			buildPhases = (
+				59FAD75921B995D4FDA84FED /* [CP] Check Pods Manifest.lock */,
+				CC4C6E67272D4E6200EFFF11 /* Sources */,
+				CC4C6E68272D4E6200EFFF11 /* Frameworks */,
+				CC4C6E69272D4E6200EFFF11 /* Resources */,
+				ADDCCB1FA30F80733E375FF9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC4C6E6D272D4E6200EFFF11 /* PBXTargetDependency */,
+			);
+			name = TeumsaeUITests;
+			productName = TeumsaeUITests;
+			productReference = CC4C6E6B272D4E6200EFFF11 /* TeumsaeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC4C6E40272D4E5D00EFFF11 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					CC4C6E47272D4E5D00EFFF11 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					CC4C6E60272D4E6200EFFF11 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = CC4C6E47272D4E5D00EFFF11;
+					};
+					CC4C6E6A272D4E6200EFFF11 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = CC4C6E47272D4E5D00EFFF11;
+					};
+				};
+			};
+			buildConfigurationList = CC4C6E43272D4E5D00EFFF11 /* Build configuration list for PBXProject "Teumsae" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC4C6E3F272D4E5D00EFFF11;
+			productRefGroup = CC4C6E49272D4E5D00EFFF11 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC4C6E47272D4E5D00EFFF11 /* Teumsae */,
+				CC4C6E60272D4E6200EFFF11 /* TeumsaeTests */,
+				CC4C6E6A272D4E6200EFFF11 /* TeumsaeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC4C6E46272D4E5D00EFFF11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC4C6E8E272D51D100EFFF11 /* Recording.storyboard in Resources */,
+				CC4C6E5B272D4E6200EFFF11 /* LaunchScreen.storyboard in Resources */,
+				CC4C6E85272D50DF00EFFF11 /* Colors.xcassets in Resources */,
+				CC4C6E58272D4E6200EFFF11 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC4C6E5F272D4E6200EFFF11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC4C6E69272D4E6200EFFF11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		09493529DFF55F0A8BA44F8C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Teumsae/Pods-Teumsae-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Teumsae/Pods-Teumsae-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Teumsae/Pods-Teumsae-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		348B61D367A3EDC1228E8709 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Teumsae-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		59FAD75921B995D4FDA84FED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Teumsae-TeumsaeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ADDCCB1FA30F80733E375FF9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Teumsae-TeumsaeUITests/Pods-Teumsae-TeumsaeUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Teumsae-TeumsaeUITests/Pods-Teumsae-TeumsaeUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Teumsae-TeumsaeUITests/Pods-Teumsae-TeumsaeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1ED5CCA37CE759A8DAFCE70 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TeumsaeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC4C6E44272D4E5D00EFFF11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC4C6E8A272D510E00EFFF11 /* Storyboards.swift in Sources */,
+				CC4C6E56272D4E5D00EFFF11 /* Teumsae.xcdatamodeld in Sources */,
+				CC4C6E50272D4E5D00EFFF11 /* ViewController.swift in Sources */,
+				CC4C6E8C272D51C800EFFF11 /* RecordingViewController.swift in Sources */,
+				CC4C6E93272D576300EFFF11 /* Recording.swift in Sources */,
+				CC4C6E4C272D4E5D00EFFF11 /* AppDelegate.swift in Sources */,
+				CC4C6E90272D563900EFFF11 /* Date+Extension.swift in Sources */,
+				CC4C6E4E272D4E5D00EFFF11 /* SceneDelegate.swift in Sources */,
+				CC4C6E88272D50F700EFFF11 /* Const.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC4C6E5D272D4E6200EFFF11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC4C6E66272D4E6200EFFF11 /* TeumsaeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC4C6E67272D4E6200EFFF11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC4C6E70272D4E6200EFFF11 /* TeumsaeUITests.swift in Sources */,
+				CC4C6E72272D4E6200EFFF11 /* TeumsaeUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC4C6E63272D4E6200EFFF11 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC4C6E47272D4E5D00EFFF11 /* Teumsae */;
+			targetProxy = CC4C6E62272D4E6200EFFF11 /* PBXContainerItemProxy */;
+		};
+		CC4C6E6D272D4E6200EFFF11 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC4C6E47272D4E5D00EFFF11 /* Teumsae */;
+			targetProxy = CC4C6E6C272D4E6200EFFF11 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CC4C6E59272D4E6200EFFF11 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC4C6E5A272D4E6200EFFF11 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC4C6E73272D4E6200EFFF11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CC4C6E74272D4E6200EFFF11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC4C6E76272D4E6200EFFF11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FE5569D7E13331C63B131FF /* Pods-Teumsae.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZB44VD5WX7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Teumsae/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.subeen.Teumsae;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CC4C6E77272D4E6200EFFF11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D6003265C0DAAF32B5F2DD4 /* Pods-Teumsae.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZB44VD5WX7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Teumsae/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.subeen.Teumsae;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CC4C6E79272D4E6200EFFF11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FDAAAA4F4B8EA1ABFA3E1E1 /* Pods-TeumsaeTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZB44VD5WX7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.subeen.TeumsaeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Teumsae.app/Teumsae";
+			};
+			name = Debug;
+		};
+		CC4C6E7A272D4E6200EFFF11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CB37A373FB4137F9C2D9D48 /* Pods-TeumsaeTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZB44VD5WX7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.subeen.TeumsaeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Teumsae.app/Teumsae";
+			};
+			name = Release;
+		};
+		CC4C6E7C272D4E6200EFFF11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE3B9DCD26D49DC98AF1FB01 /* Pods-Teumsae-TeumsaeUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZB44VD5WX7;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.subeen.TeumsaeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Teumsae;
+			};
+			name = Debug;
+		};
+		CC4C6E7D272D4E6200EFFF11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0710C560259441395AB1FEAE /* Pods-Teumsae-TeumsaeUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZB44VD5WX7;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.subeen.TeumsaeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Teumsae;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC4C6E43272D4E5D00EFFF11 /* Build configuration list for PBXProject "Teumsae" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC4C6E73272D4E6200EFFF11 /* Debug */,
+				CC4C6E74272D4E6200EFFF11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC4C6E75272D4E6200EFFF11 /* Build configuration list for PBXNativeTarget "Teumsae" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC4C6E76272D4E6200EFFF11 /* Debug */,
+				CC4C6E77272D4E6200EFFF11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC4C6E78272D4E6200EFFF11 /* Build configuration list for PBXNativeTarget "TeumsaeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC4C6E79272D4E6200EFFF11 /* Debug */,
+				CC4C6E7A272D4E6200EFFF11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC4C6E7B272D4E6200EFFF11 /* Build configuration list for PBXNativeTarget "TeumsaeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC4C6E7C272D4E6200EFFF11 /* Debug */,
+				CC4C6E7D272D4E6200EFFF11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CC4C6E54272D4E5D00EFFF11 /* Teumsae.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CC4C6E55272D4E5D00EFFF11 /* Teumsae.xcdatamodel */,
+			);
+			currentVersion = CC4C6E55272D4E5D00EFFF11 /* Teumsae.xcdatamodel */;
+			path = Teumsae.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CC4C6E40272D4E5D00EFFF11 /* Project object */;
+}
